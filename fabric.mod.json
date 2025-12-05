@@ -1,0 +1,18 @@
+
+{
+  "schemaVersion": 1,
+  "id": "motionblur",
+  "version": "1.0.0",
+  "name": "MotionBlur Mod",
+  "description": "Client-side motion blur with config menu for Fabric 1.21.8",
+  "authors": ["ChatGPT"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.motionblur.MotionBlurMod"]
+  },
+  "mixins": ["motionblur.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*"
+  }
+}
